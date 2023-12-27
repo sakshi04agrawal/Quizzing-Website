@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nations</title>
+    <link rel="stylesheet" href="../css/quiz1.css">
+    <style>
+        body{
+            background-image: url('../css/images/capital3.jpg');
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        div.quiz{
+            background: rgba(225, 255, 255, 0.25);
+            box-shadow: 5px 20px 50px rgba(3, 31, 109, 0.37);
+            backdrop-filter: blur(60px);
+        }
+        .quizz h2{
+            color: #8cd20a;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz">
+        <h1>Quiz</h1>
+        <div class="quizz">
+            <div id="hud">
+                <div id="hud-item">
+                <p class="prefix">Question</p>
+                <h3 class="text" id="questionCounter"></h3>
+                </div>
+                <div id="hud-item">
+                <p class="prefix">Score</p>
+                <h3 class="text" id="score">0</h3>
+                </div>
+            </div>
+            <h2 id="question">Loading...</h2>
+            <div id="hidden">
+            <div class="choice-container">
+                <p class="btn" data-number="1">Option1</p>
+            </div>
+            <div class="choice-container">
+                <p class="btn" data-number="2">Option2</p>
+            </div>
+            <div class="choice-container">   
+                <p class="btn" data-number="3">Option3</p>
+            </div>
+            <div class="choice-container">
+                <p class="btn" data-number="4">Option4</p>
+            </div>
+            </div>
+            <button id="next">Next</button>
+            <button id="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+<script src="../js/quiz3.js"></script>
+</body>
+</html>
