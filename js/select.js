@@ -14,4 +14,8 @@ capital.addEventListener("click",()=>{
 })
 sn.addEventListener("click",()=>{
     window.location.assign("../categoriesQuiz/Quizzing-website4.html");
+<<<<<<< HEAD
 })
+=======
+})
+>>>>>>> 4eb44b062cccc5a6f62d1115d24732404e158db8
