@@ -4,14 +4,14 @@ const capital=document.getElementById("capital");
 const sn=document.getElementById("sn");
 
 anime.addEventListener("click",()=>{
-    window.location.assign("../categoriesQuiz/Quizzing website1.html");
+    window.location.assign("../categoriesQuiz/Quizzing-website1.html");
 })
 books.addEventListener("click",()=>{
-    window.location.assign("../categoriesQuiz/Quizzing website2.html");
+    window.location.assign("../categoriesQuiz/Quizzing-website2.html");
 })
 capital.addEventListener("click",()=>{
-    window.location.assign("../categoriesQuiz/Quizzing website3.html");
+    window.location.assign("../categoriesQuiz/Quizzing-website3.html");
 })
 sn.addEventListener("click",()=>{
-    window.location.assign("../categoriesQuiz/Quizzing website4.html");
+    window.location.assign("../categoriesQuiz/Quizzing-website4.html");
 })
