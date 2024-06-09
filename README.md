@@ -1,6 +1,6 @@
 # Quizzing - web application
 ##### Here's the website link:
-[Link-to-website](https://saki-4148.github.io/Quiz_website/)
+[Link-to-website](https://sakshi04agrawal.github.io/Quizzing-Website/)
 
 ## Table of Content
 * [Overview](#overview)
